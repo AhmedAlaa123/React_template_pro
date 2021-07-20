@@ -1,0 +1,99 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-link fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/images/Portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "image": "/images/Portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "image": "/images/Portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":8,
+            "image": "/images/Portfolio/portfolio-img8.jpg"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : " fab fa-facebook fa-2x",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : " fab fa-twitter fa-2x",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : " fab fa-pinterest fa-2x",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] ,
+    "profiles":[
+        {
+            "id":1,
+            "title":"BootStrap",
+            "percent":"100%"
+        },
+        {
+            "id":2,
+            "title":"Css3",
+            "percent":"50%"
+        },
+        {
+            "id":3,
+            "title":"PhotoShop",
+            "percent":"90%"
+        },
+        {
+            "id":4,
+            "title":"Html5",
+            "percent":"80%"
+        }
+    ]
+}
