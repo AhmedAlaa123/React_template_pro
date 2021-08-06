@@ -15,8 +15,9 @@ class App extends Component {
       <div className='App'>
         <BrowserRouter>
         <NaveBar/>
-        <Route exact path='/' component={Index}/>
-        <Route path='/contact' component={Contact}/>
+        {/** /React_template_pro/ this is pass on github */}
+        <Route exact path='/React_template_pro/' component={Index}/>
+        <Route path='/React_template_pro/contact' component={Contact}/>
         </BrowserRouter>
       </div>
     );

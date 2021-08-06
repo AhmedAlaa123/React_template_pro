@@ -12,12 +12,12 @@ const NavBar =(props)=>{
                     <LogoText>Ultra Profile</LogoText>
                 </Logo>
                 <UlList>
-                    <ListItem><Anchor to='/'>Home</Anchor></ListItem>
+                    <ListItem><Anchor to='/React_template_pro/'>Home</Anchor></ListItem>
                     <ListItem><Anchor to='#'>Work</Anchor></ListItem>
                     <ListItem><Anchor to="#">Portfolio</Anchor></ListItem>
                     <ListItem><Anchor to="#">Resume</Anchor></ListItem>
                     <ListItem><Anchor to="#">About</Anchor></ListItem>
-                    <ListItem><Anchor to="/contact">Contact</Anchor></ListItem>
+                    <ListItem><Anchor to="/React_template_pro/contact">Contact</Anchor></ListItem>
                 </UlList>
 
             </div>
