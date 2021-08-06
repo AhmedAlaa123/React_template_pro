@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutSection=styled.section`
     min-height: 500px;
-    background: url('../images/creative/about-bg.jpg');
+    background: url('https://ahmedalaa123.github.io/React_template_pro/images/creative/about-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

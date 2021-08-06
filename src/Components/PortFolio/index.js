@@ -8,7 +8,7 @@ const Portfolio =(props)=>{
 
     const[state,setState]=useState({images:[]});
     useEffect(()=>{
-        axios.get('js/data.json').then(response=>{setState({images:response.data.portfolio,})})
+        axios.get('https://ahmedalaa123.github.io/React_template_pro/js/data.json').then(response=>{setState({images:response.data.portfolio,})})
     },[]);
 
     const gallary=state.images.map((imageItem)=>{
