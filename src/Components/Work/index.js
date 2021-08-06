@@ -18,7 +18,7 @@ class Work extends Component {
     */    
     // 2=========== making http  request using axios libirary
     componentDidMount(){
-        axios.get('js/data.json').then(res=>{
+        axios.get('https://ahmedalaa123.github.io/React_template_pro/js/data.json').then(res=>{
             // checking about request status
             if(res.status===200)
             {
