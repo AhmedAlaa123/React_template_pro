@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import MAIN_PATH from '../../contsants/utilites'
 export const HomeSection=styled.section`
     height: 500px;
-    background: url('https://ahmedalaa123.github.io/React_template_pro/images/Home/home-bg.jpg');
+    background: url(${MAIN_PATH+'images/Home/home-bg.jpg'});
     background-size: cover;
     background-position: center;
     text-align: center;

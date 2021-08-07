@@ -1,6 +1,7 @@
 import React ,{useState,useEffect} from 'react';
 import {PortfolioSection,PortfolioTitle,Span,PortfolioList,PortfolioItem,GallaryItem,GallaryItemImage,Overllay,OverllaySpan,} from'./style.js'
 import axios from 'axios';
+import MAIN_PATH from '../../contsants/utilites'
 const Portfolio =(props)=>{
 // we will use hook way to making set state in method component
 // first importing two method form react 
@@ -8,13 +9,13 @@ const Portfolio =(props)=>{
 
     const[state,setState]=useState({images:[]});
     useEffect(()=>{
-        axios.get('https://ahmedalaa123.github.io/React_template_pro/js/data.json').then(response=>{setState({images:response.data.portfolio,})})
+        axios.get('js/data.json').then(response=>{setState({images:response.data.portfolio,})})
     },[]);
 
     const gallary=state.images.map((imageItem)=>{
         return (
             <GallaryItem key={imageItem.id}>
-                <GallaryItemImage src={imageItem.image} alt="" />
+                <GallaryItemImage src={MAIN_PATH+imageItem.image} alt="" />
                 <Overllay>
                     <OverllaySpan >Show Image</OverllaySpan>
                 </Overllay>

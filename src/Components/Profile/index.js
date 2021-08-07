@@ -1,10 +1,11 @@
 import axios from 'axios';
+import MAIN_PATH from '../../contsants/utilites'
 import React ,{useState,useEffect} from 'react';
 import {ProfileSection,ProfileBox,ProfileList,ProfileItem,Span,SpanWeb,Skills,SkillDescription,Bar,BarTitle,Percentage,Parent,LinePercentage,ProfileTitle, ProfileTitleSpan, SkillTitleSpan, Skillstitle}from './style.js'
 const Profile =(props)=>{
     const [state,setState]=useState({profiles:[]});
     useEffect(()=>{
-        axios.get('js/data.json').then(response=>{
+        axios.get(MAIN_PATH+'js/data.json').then(response=>{
             setState({profiles:response.data.profiles});
         })
     },[]

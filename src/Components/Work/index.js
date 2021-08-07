@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React ,{Component}  from 'react';
 import {WorkSection,WorkTitle,WorkPart,WorkIcon,PartTitle,Line,PartDescription, Span } from'./style.js'; 
+import MAIN_PATH from '../../contsants/utilites'
 class Work extends Component {
     state ={
         works:[]
@@ -18,7 +19,7 @@ class Work extends Component {
     */    
     // 2=========== making http  request using axios libirary
     componentDidMount(){
-        axios.get('https://ahmedalaa123.github.io/React_template_pro/js/data.json').then(res=>{
+        axios.get('js/data.json').then(res=>{
             // checking about request status
             if(res.status===200)
             {

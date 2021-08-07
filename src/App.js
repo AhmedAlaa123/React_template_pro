@@ -7,6 +7,7 @@ import './App.css';
 import NaveBar from './Components/NavBar'
 import Index from './Components/Index';
 import Contact from './Components/Contact'
+import PAGE_LINK from './contsants/utilites'
 class App extends Component {
 
   render ()
@@ -16,8 +17,8 @@ class App extends Component {
         <BrowserRouter>
         <NaveBar/>
         {/** /React_template_pro/ this is pass on github */}
-        <Route exact path='/React_template_pro/' component={Index}/>
-        <Route path='/React_template_pro/contact' component={Contact}/>
+        <Route exact path={PAGE_LINK} component={Index}/>
+        <Route path={PAGE_LINK+'contact'} component={Contact}/>
         </BrowserRouter>
       </div>
     );
